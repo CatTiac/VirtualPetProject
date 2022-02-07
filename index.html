@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/MasterCodingCourse/Week4/Day4/VirtualPet/VirtualPet/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+        <title>The Mythical Pet Machine</title>
+    </head>
+    <body>
+        <main class = "mainContainer">
+            <div class="heading1">
+                <h1><u><b>The Mythical Pet Machine</b></u></h1>
+            </div>
+            <table class="actionTable">
+                <colgroup>
+                    <col>
+                    <col span="1" class="ActionList">
+                </colgroup>
+                <tr class="actionTitle">
+                    <th><b>Actions</b></th>
+                </tr>
+                <tr>
+                    <!-- <td><button onclick="eat()">Eat</button></td> -->
+                    <td><button id="eat">Eat</button></td>
+                    <td><button id="play">Play</button></td>
+                </tr>
+                <tr>
+                    <td><button id="drink">Drink</button></td>
+                    <td><button id="sleep">Sleep</button></td>
+                </tr>
+                <tr>
+                    <td><button id="potion">Potion</button></td>
+                    <td><button id="wash">Wash</button></td>
+                </tr>
+            </table>
+            <table class="petOptions">
+                <label for="petName"> Type your pet name :</label>
+                <input type="text" petName="petName" id="petName">
+                <tr class="petsTitle">
+                    <th><b>Choose A Pet</b></th>
+                </tr>
+                <tr>
+                    <td><button id="dragonBut">Dragon</button></td>
+                    <td><button id="kelpieBut">Kelpie</button></td>
+                    <td><button id="fairyBut">Fairy</button></td>
+                </tr>
+            </table>
+            <div class="petSection">
+                <div id ="dragonPic">
+                    <img src="./Images/greenDragon.png" width="50%" alt = "A green dragon">
+                </div>
+                <div>
+                    <img id ="kelpiePic" src="./Images/kelpieleft.png" width="15%" alt = "A green kelpie">
+                </div>
+                <div>
+                    <img id ="fairyPic" src="./Images/pinkhairfairy.png" width="10%" alt = "A fairy with pink hair and green clothes">
+                </div>
+            </div>
+            <div id="infoBox">
+                <h3>Pet Information</h3>
+            </div>
+        </main>
+        <script src="./VP.js"></script>
+    </body>
+</html>
+
+<!-- document.getElementById("dragon").onclick = >insert function Name< -->

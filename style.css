@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    max-height: 100vh;
+    background-image:url('./Images/MistyMoor.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Supermercado One', cursive;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.actionTable {
+    display: flex;
+    position: absolute;
+    right: 80px;
+    top: 320px;
+    text-align: center;
+    max-width: fit-content;
+    padding: 10px 15px;
+    border: 2px solid rgb(57, 172, 124);
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, #38c5ae 0%, #032722 100%);
+}
+.actionTitle {
+    display: flex;
+    color: silver;
+    justify-content: center;
+}
+
+td {
+    padding: 10px 10px;
+    color: silver;
+}
+
+.heading1 {
+    display: flex;
+    color: rgb(87, 199, 156);
+}
+
+button {
+    background-color: rgb(43, 145, 111);
+    border-radius: 15px;
+    border-color: rgb(151, 236, 232);
+    color: silver;
+    font-family: 'Supermercado One', cursive;
+    /* font-weight: 600; */
+    font-size: 24px;
+    padding: 5px 15px;
+}
+button:hover {
+    background-color: rgb(46, 182, 164);
+}
+
+.petOptions {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 150px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    max-width: fit-content;
+    padding: 10px 15px;
+    background-image: linear-gradient(90deg, rgb(103, 38, 129) 0%, rgb(60, 139, 150) 45%, rgb(163, 88, 157) 100%);
+    border: 2px solid rgb(163, 88, 157);
+    border-radius: 15px;
+}
+.petsTitle {
+    display: flex;
+    color: silver;
+    justify-content: center;
+}
+#dragonBut {
+    background-color: rgb(116, 43, 145);
+}
+#dragonBut:hover {
+    background-color: rgb(173, 60, 218);
+}
+#kelpieBut {
+    background-color: rgb(70, 158, 170);
+}
+#kelpieBut:hover {
+    background-color: rgb(48, 217, 240);
+}
+#fairyBut {
+    background-color: rgb(197, 127, 191);
+}
+#fairyBut:hover {
+    background-color: rgb(247, 181, 241);
+}
+
+#dragonPic {
+    display: none;
+    position: absolute;
+    right: 400px;
+    top: 130px;
+    /* animation-name: dragonFlyAnimation;
+    animation: dragonFlyAnimation 1s linear 0s 1 normal none;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+}
+@keyframes dragonFlyAnimation {
+    0% {
+      transform: translateX(-600px);
+    }
+    25% {
+      transform: translateX(300px);
+    }
+    50% {
+        transform: translateX(0px);
+        transform: rotateY(90deg);
+    }
+    75% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(600px);
+    } */
+}
+
+#kelpiePic {
+    display: none;
+    position: absolute;
+    right: 400px;
+    top: 500px;
+}
+#fairyPic {
+    display: none;
+    position: absolute;
+    left: 400px;
+    bottom: 250px;
+    animation-name: fairyBobAnimation;
+    animation: fairyBobAnimation 1s linear 0s 1 normal none;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fairyBobAnimation {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(-1px);
+    }
+}
+
+#infoBox {
+    display:flex;
+    position: absolute;
+    bottom: 15px;
+    left: 350px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    /* max-width: fit-content; */
+    padding: 10px 15px;
+    font-family: 'Supermercado One', cursive;
+    color: silver;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(19, 93, 65, 0);
+    border-radius: 12px;
+    border: 2px solid rgba(15, 182, 85, 0.507);
+}
