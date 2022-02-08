@@ -98,7 +98,7 @@ button:hover {
     position: absolute;
     right: 400px;
     top: 130px;
-    /* animation-name: dragonFlyAnimation;
+    animation-name: dragonFlyAnimation;
     animation: dragonFlyAnimation 1s linear 0s 1 normal none;
     animation-duration: 5s;
     animation-direction: alternate;
@@ -122,7 +122,7 @@ button:hover {
     }
     100% {
         transform: translateX(600px);
-    } */
+    }
 }
 
 #kelpiePic {
