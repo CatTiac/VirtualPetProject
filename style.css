@@ -47,7 +47,6 @@ button {
     border-color: rgb(151, 236, 232);
     color: silver;
     font-family: 'Supermercado One', cursive;
-    /* font-weight: 600; */
     font-size: 24px;
     padding: 5px 15px;
 }
@@ -163,7 +162,6 @@ button:hover {
     justify-content: center;
     align-content: center;
     width: 60%;
-    /* max-width: fit-content; */
     padding: 10px 15px;
     font-family: 'Supermercado One', cursive;
     color: silver;

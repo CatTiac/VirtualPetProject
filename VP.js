@@ -217,10 +217,6 @@ const tink = new Fairy (
 // console.log(tink);
 // tink.eat();
 // tink.drink();
-// tink.play();
-// tink.wash();
-// // tink.sleep();
-// tink.usePotion();
 
 //Button Eventlisteners
 
